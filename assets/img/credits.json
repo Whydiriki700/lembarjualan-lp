@@ -1,0 +1,35 @@
+{
+ "note": "Credits for the photographs in this folder: photos.mjs credits prints the footer block for the ones the pages use.",
+ "photos": [
+  {
+   "file": "photo-f116284387.webp",
+   "files": [
+    "photo-f116284387-500.webp",
+    "photo-f116284387-960.webp",
+    "photo-f116284387.webp"
+   ],
+   "id": "f116284387",
+   "alt": "Close-up of a woman using her smartphone while having coffee",
+   "by": "Nenad Stojkovic",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_using_her_smartphone_while_having_coffee.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f116757592.webp",
+   "files": [
+    "photo-f116757592-500.webp",
+    "photo-f116757592-960.webp",
+    "photo-f116757592.webp"
+   ],
+   "id": "f116757592",
+   "alt": "Young business woman with curly hair in uniform using smartphone at home. (51487906519)",
+   "by": "Nenad Stojkovic",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Young_business_woman_with_curly_hair_in_uniform_using_smartphone_at_home._(51487906519).jpg",
+   "source": "Wikimedia Commons"
+  }
+ ]
+}
