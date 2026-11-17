@@ -108,20 +108,6 @@
   .spek .baris .nilai{font-size:13px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--red);white-space:nowrap}
   .spek .baris p{font-size:14px;margin-top:3px}
 
-  /* Video */
-  .latar2{background:linear-gradient(155deg, rgba(255,244,224,.8), rgba(252,236,214,.55))}
-  .video-slot{background:linear-gradient(170deg, rgba(24,18,13,.92), rgba(52,20,12,.88));border:1px solid rgba(255,255,255,.25);border-radius:22px;position:relative;aspect-ratio:9/16;max-height:520px;margin:0 auto;overflow:hidden;box-shadow:0 18px 40px rgba(46,10,0,.35)}
-  .video-slot:before,.video-slot:after{content:"";position:absolute;width:22px;height:22px;border:2px solid rgba(255,255,255,.4)}
-  .video-slot:before{top:12px;left:12px;border-right:none;border-bottom:none;border-radius:6px 0 0 0}
-  .video-slot:after{bottom:12px;right:12px;border-left:none;border-top:none;border-radius:0 0 6px 0}
-  .video-kosong{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#ddd2ba;text-align:center;padding:26px;gap:12px}
-  .video-kosong .play{width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,#e8491f,#b92e0f);display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px rgba(207,58,23,.5);animation:denyut 2.6s ease-out infinite}
-  @keyframes denyut{0%{box-shadow:0 14px 30px rgba(207,58,23,.5),0 0 0 0 rgba(232,73,31,.45)}70%{box-shadow:0 14px 30px rgba(207,58,23,.5),0 0 0 20px rgba(232,73,31,0)}100%{box-shadow:0 14px 30px rgba(207,58,23,.5),0 0 0 0 rgba(232,73,31,0)}}
-  .video-kosong b{color:#fff;font-size:18px;letter-spacing:-.01em}
-  .video-kosong span{font-size:13.5px;max-width:250px}
-  .video-kosong .slot-label{font-size:11px;letter-spacing:2.2px;text-transform:uppercase;color:#b7ab90}
-  .video-slot video{width:100%;height:100%;object-fit:cover;display:block}
-
   /* Galeri niche */
   .galeri{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   .tpl{border:1px solid rgba(255,255,255,.7);background:linear-gradient(165deg, rgba(255,255,255,.68), rgba(255,255,255,.42));border-radius:18px;overflow:hidden;padding:9px;box-shadow:0 10px 26px rgba(46,10,0,.16);transition:transform .25s ease,box-shadow .25s ease}
@@ -266,8 +252,8 @@
   <div class="bukti">
     <div class="kick putih">Buktinya dulu</div>
     <h2>Halaman ini sendiri adalah contohnya.</h2>
-    <p>LP yang sedang kamu baca dibangun memakai struktur paket Jualan: hero, video, galeri, bonus, paket, dan tombol sticky. Yang kamu nilai sekarang, itu yang kamu beli.</p>
-    <div class="isi-halaman">Isi halaman ini: <b>Hero</b> &middot; <b>Masalah</b> &middot; <b>Video</b> &middot; <b>Galeri</b> &middot; <b>Bonus</b> &middot; <b>Paket</b> &middot; <b>FAQ</b> &middot; <b>Form</b> &middot; <b>Tombol sticky</b></div>
+    <p>LP yang sedang kamu baca dibangun memakai struktur paket Jualan: hero, galeri, bonus, paket, dan tombol sticky. Yang kamu nilai sekarang, itu yang kamu beli.</p>
+    <div class="isi-halaman">Isi halaman ini: <b>Hero</b> &middot; <b>Masalah</b> &middot; <b>Galeri</b> &middot; <b>Bonus</b> &middot; <b>Paket</b> &middot; <b>FAQ</b> &middot; <b>Form</b> &middot; <b>Tombol sticky</b></div>
   </div>
 
   <!-- INTEREST -->
@@ -331,24 +317,10 @@
     </div>
   </section>
 
-  <section class="latar2">
-    <div class="kick">03 &mdash; Demonya</div>
-    <h2>Lihat cara kerjanya</h2>
-    <p class="sub">Dari file template menjadi halaman jualan yang siap diiklankan, dalam tiga langkah.</p>
-    <div class="video-slot">
-      <!-- VIDEO REEDIT: ganti src di bawah dengan file video final -->
-      <!-- <video controls playsinline preload="metadata" src="video-demo.mp4"></video> -->
-      <div class="video-kosong">
-        <span class="slot-label">Slot video 9:16</span>
-        <div class="play"><svg width="24" height="26" viewBox="0 0 24 26"><path d="M2 2 L22 13 L2 24 Z" fill="#fff"/></svg></div>
-        <b>Video: Template Dipasang Langsung</b>
-        <span>Video demo pemasangan template tinggal dimasukkan di sini.</span>
-      </div>
-    </div>
-  </section>
+  
 
   <section>
-    <div class="kick">04 &mdash; Galerinya</div>
+    <div class="kick">03 &mdash; Galerinya</div>
     <h2>Pilih desain sesuai niche jualanmu</h2>
     <p class="sub">Setiap template mengikuti struktur yang terbukti: headline, masalah, solusi, bukti, penawaran, tombol pesan. Yang berbeda hanya warna dan gayanya.</p>
     <div class="galeri">
@@ -361,7 +333,7 @@
 
   <!-- DESIRE -->
   <section class="latar2">
-    <div class="kick">05 &mdash; Isi paketnya</div>
+    <div class="kick">04 &mdash; Isi paketnya</div>
     <h2>Yang kamu terima</h2>
     <p class="sub">Bukan cuma file desain. Ini paket lengkap untuk jalan:</p>
     <ol class="isi-paket">
@@ -384,7 +356,7 @@
   </section>
 
   <section>
-    <div class="kick">06 &mdash; Bandingkan</div>
+    <div class="kick">05 &mdash; Bandingkan</div>
     <h2>Hitung sendiri bedanya</h2>
     <p class="sub">Perbandingan jujur dengan jalur lain:</p>
     <table>
@@ -397,7 +369,7 @@
   </section>
 
   <section class="latar2">
-    <div class="kick">07 &mdash; Harganya</div>
+    <div class="kick">06 &mdash; Harganya</div>
     <h2>Pilih paketmu</h2>
     <p class="sub">Sekali bayar, bukan langganan. File dan bonus dikirim lewat WhatsApp. Hitung per templatenya, paket tengah yang paling murah.</p>
     <div class="paket" data-paket="Starter - Rp79.000" data-harga="Rp79.000" data-nama="Starter" tabindex="0" role="button" aria-label="Pilih paket Starter">
@@ -432,7 +404,7 @@
 
   <!-- CONVICTION -->
   <section>
-    <div class="kick">08 &mdash; Tanya jawab</div>
+    <div class="kick">07 &mdash; Tanya jawab</div>
     <h2>Pertanyaan yang sering muncul</h2>
     <details><summary>Saya tidak bisa coding sama sekali, bisa pakai?</summary><p>Bisa. Template berupa file jadi. Kamu hanya mengganti teks, foto, harga, dan nomor WhatsApp mengikuti panduan langkah demi langkah yang disertakan.</p></details>
     <details><summary>Dipasang di mana templatenya?</summary><p>Bisa di Vercel, Scalev, atau hosting HTML lain. Panduan pemasangan untuk Vercel dan Scalev termasuk dalam bonus paket Jualan dan Pro.</p></details>
@@ -447,7 +419,7 @@
 
   <!-- ACTION -->
   <section id="pesan" class="latar2">
-    <div class="kick">09 &mdash; Pesannya di sini</div>
+    <div class="kick">08 &mdash; Pesannya di sini</div>
     <h2>Pesan sekarang</h2>
     <p class="sub">Isi form singkat ini. Kamu langsung diarahkan ke WhatsApp untuk pembayaran dan pengiriman file.</p>
     <div class="formbungkus">
